@@ -1,42 +1,174 @@
-.App {
+
+
+.movie-column, .seat-column, .slot-column {
+  display: inline-block;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  border: 2px black ridge;
+  padding: 20px 15px;
+  line-height: 4px;
+  border-radius: 35px;
+  font-size: 17px;
+  font-family: cursive; 
+}
+.movie-column:hover{
+  background-color: #ee60e2; 
+}
+.movie-column:active{
+  background-color: #5847ef;
+}
+.seat-column:hover{
+  background-color: #ee60e2; 
+
+}
+.seat-column:active{
+  background-color: #1926d8;
+}
+.slot-column:hover{
+  background-color: #ee60e2; 
+}
+.slot-column:active{
+  background-color: #5847ef;
+}
+
+
+.movie-row, .seat-row, .slot-row {
+  border-radius: 41px;
+    border: 2px black ridge;
+    padding: 22px;
+    margin: 16px 99px;
+  ;
+}
+
+
+
+
+.seat-column {
+  min-width: 100px;
   text-align: center;
+  padding-bottom: 22px;
+  ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.book-button button {
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1em;
   color: white;
+  padding: 5px 15px;
+  font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+.movie-column-selected, .seat-column-selected, .slot-column-selected {
+  display: inline-block;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  border: 2px rgb(0, 0, 0) ridge;
+  padding: 20px 15px;
+  line-height: 1px;
+  border-radius: 24px;  
+  font-size: 17px;
+  font-family: cursive;
+  background-color: rgb(236 179 250)
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  width: 50px;
+  margin: 14px 15px;
+  border-color: rgb(196, 196, 196);
+  border-width: 1px;
+}
+
+.last-order {
+  border-radius: 10px;
+  border: 1px black ridge;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  ;
 }
 
 
 
+
+/* CSS */
+ .button-62 {
+background: black;
+border: 4px solid #f248ed;;
+border-radius: 32px;
+color: #FFFFFF;
+cursor: pointer;
+display: inline-block;
+font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 2.5;
+outline: transparent;
+padding: 0 1rem;
+text-align: center;
+text-decoration: none;
+transition: box-shadow .2s ease-in-out;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+white-space: nowrap;
+margin: 12px 114px;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 0.25rem rgb(189 45 215 / 64%), -0.125rem -0.125rem 1rem rgb(251 15 219 / 73%), 0.125rem 0.125rem 1rem rgb(232 49 236 / 71%);}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 0.25rem rgb(189 45 215 / 64%), -0.125rem -0.125rem 1rem rgb(251 15 219 / 73%), 0.125rem 0.125rem 1rem rgb(232 49 236 / 71%);
+}
+
+.title{
+  
+  word-spacing:1vh;
+  font-family: cursive;
+  margin: 35px 73px;
+
+  
+}
+
+
+.heading{
+  
+    font-size: 49px;
+    font-family: fantasy;
+    background-color: #ecb3fa;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+   
+}
+.body-box{
+  
+  
+  background-color: #f9ffea;
+  
+}
+.sub-heading{
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  margin:7px;
+
+  
+}
+.booking-details-column{
+  border: 2px rgb(0, 0, 0) ridge;
+  padding:15px;
+  border-radius: 5px;
+  background-color: #ecb3fa45;
+  font-family: cursive;
+  width: 24%;
+  line-height: 50px;
+ 
+   
+}
+.booking-column{
+  font-family: cursive;
+  font-size:24px;
+
+} 
 

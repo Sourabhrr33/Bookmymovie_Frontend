@@ -1,13 +1,11 @@
-import Navbar from './component/navbar';
-import Page from "./component/page"
+import BookMyMovie from "./component/BookMovie"
 import './App.css';
 
 function App() {
   return (
     <div >
 
-    <Navbar/>
-    <Page/>
+    <BookMyMovie/>
     
 
     </div>
