@@ -5,7 +5,7 @@
   color: rgb(0, 0, 0);
   border: 2px black ridge;
   padding: 10px 10px;
-  line-height: 18px;
+  line-height: 16px;
   border-radius: 35px;
   font-size: 17px;
   font-family: 'Poppins', sans-serif;
@@ -61,16 +61,16 @@
 
 .movie-column-selected, .seat-column-selected, .slot-column-selected {
   display: inline-block;
-  margin: 10px;
+  margin: 0px;
   color: rgb(0, 0, 0);
   border: 2px rgb(0, 0, 0) ridge;
-  padding: 20px 15px;
-  line-height: 1px;
-  border-radius: 24px;  
+  padding: 10px 18px;
+  line-height: 18px;
+  border-radius: 24px;
   font-size: 17px;
   font-family: 'Poppins', sans-serif;
   background-color: rgb(236 179 250);
-  white-space: normal; 
+  white-space: normal;
   word-wrap: break-word;
 }
 
