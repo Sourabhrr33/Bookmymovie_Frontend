@@ -5,6 +5,7 @@ export const getMovieDetailsApi =()=>{
     })
     .then((response)=>{
         if(response.status===200){
+            // console.log('get',response)
             return response.json()
         }
         else{
