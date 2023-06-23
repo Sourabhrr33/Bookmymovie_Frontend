@@ -1,15 +1,16 @@
 
 .movie-column, .seat-column, .slot-column {
   display: inline-block;
-  margin: 10px;
+  margin: 5px 9px;
   color: rgb(0, 0, 0);
   border: 2px black ridge;
-  padding: 20px 15px;
-  line-height: 4px;
+  padding: 10px 10px;
+  line-height: 18px;
   border-radius: 35px;
   font-size: 17px;
   font-family: 'Poppins', sans-serif;
 }
+
 .movie-column:hover{
   background-color: #ecb3fa; 
 }
@@ -89,9 +90,6 @@ input {
   ;
 }
 
-
-
-
 /* CSS */
  .button-62 {
 background: black;
@@ -113,7 +111,7 @@ user-select: none;
 -webkit-user-select: none;
 touch-action: manipulation;
 white-space: nowrap;
-margin: 12px 114px;
+margin: 20px 114px;
 }
 
 .button-62:not([disabled]):focus {
@@ -164,6 +162,12 @@ margin: 12px 114px;
   width: 24%;
   line-height: 50px;
   
+}
+
+@media screen and (max-width: 991px) {
+  .booking-details-column{
+   width: 100%;
+  } 
 }
 .booking-column{
   font-family: 'Poppins', sans-serif;
