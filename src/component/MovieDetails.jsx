@@ -7,7 +7,7 @@ function MovieDetails(props) {
     <div className='mt-5 mx-4 mb-5'>
       {props.lastMovieDetails.movie === ''
         ?
-        <h1>'No Previous Movies found!!'</h1>
+        <h2>'No Previous Movies found!!'</h2>
         :
         <div>
           <h1>Last Movie Details:</h1>

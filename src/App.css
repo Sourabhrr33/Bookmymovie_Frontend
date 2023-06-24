@@ -125,8 +125,7 @@ margin: 20px 114px;
   
   word-spacing:1vh;
   font-family: 'Poppins', sans-serif;
-  margin: 35px 73px;
-
+ 
   
 }
 
@@ -134,7 +133,7 @@ margin: 20px 114px;
 .heading{
   
     font-size: 49px;
-    font-family: fantasy;
+    font-family: 'Poppins', sans-serif;
     background-color: #ecb3fa;
     letter-spacing: 3px;
     display: flex;
@@ -174,4 +173,21 @@ margin: 20px 114px;
   font-size:24px;
 
 } 
+@media screen and (max-width: 394px) {
+
+ 
+  .movie-row, .seat-row, .slot-row {
+      margin: 0px;
+     
+  }
+  .button-62 {
+  margin: 20px 21px;
+  }
+  .heading{
+  
+    font-size: 25px;
+  
+  }
+}
+
 

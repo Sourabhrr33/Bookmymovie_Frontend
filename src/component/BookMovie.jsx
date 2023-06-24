@@ -179,7 +179,6 @@ function BookMyMovie() {
                             </div>
 
 
-
                             <div className="slot-row p-3">
                                 <h3 className="sub-heading">Select A Time Slot</h3>
                                 <div className="d-flex flex-wrap">
@@ -248,7 +247,7 @@ function BookMyMovie() {
                         <MovieDetails lastMovieDetails={lastMovieDetails} />
                     </div>
 
-                </div>
+            </div>
             </div>
 
         </>
